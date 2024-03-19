@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.services .heading-title {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.services .box-container .box {
+    padding: 2rem 1.2rem;
+    text-align: center;
+    background-color: rgb(97, 94, 94);
+    /* text-align: center; */
+
+}
+
+.services .box-container .box:hover {
+    background-color: rgb(178, 123, 231);
+    cursor: pointer;
+}
+
+.services .box-container img {
+    height: 5rem;
+    /* -webkit-filter: invert(1); */
+    filter: invert(1);
+}
+
+.services .box-container .box h3 {
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 1rem
+}
